@@ -1,6 +1,6 @@
-# Frontend Mentor - Profile card component solution
+# Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -18,6 +18,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
@@ -25,13 +26,13 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/OElmraghy/Profile-card-component)
-- Live Site URL: (https://oelmraghy.github.io/Profile-card-component/)
+- Solution URL: (https://github.com/OElmraghy/3-column-preview-card-component)
+- Live Site URL: (https://oelmraghy.github.io/3-column-preview-card-component/)
 
 ### Built with
 
 - CSS custom properties
-- Flexbox
+- grid
 
 ## Author
 
