@@ -57,7 +57,7 @@ main {
   }
 }
 
-@media (max-width: 648px) {
+@media (max-width: 655px) {
   .sedans {
     border-radius: 0.5rem 0.5rem 0 0;
     -webkit-border-radius: 0.5rem 0.5rem 0 0;
@@ -69,6 +69,26 @@ main {
 
 .suvs {
   background-color: var(--dark-cyan);
+}
+
+@media (max-width: 940px) {
+  .suvs {
+    border-radius: 0 0.5rem 0.5rem 0;
+    -webkit-border-radius: 0 0.5rem 0.5rem 0;
+    -moz-border-radius: 0 0.5rem 0.5rem 0;
+    -ms-border-radius: 0 0.5rem 0.5rem 0;
+    -o-border-radius: 0 0.5rem 0.5rem 0;
+  }
+}
+
+@media (max-width: 655px) {
+  .suvs {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
 }
 
 .luxury {
@@ -101,8 +121,8 @@ main {
   color: var(--transparent-white);
   line-height: 1.8;
   letter-spacing: 1px;
+  min-height: 160px;
   font-family: "Lexend Deca", sans-serif;
-  padding-right: 4.6em;
   margin-bottom: 7rem;
   margin-top: 2.5rem;
 }
@@ -118,6 +138,11 @@ main {
   -o-border-radius: 2em;
   border: 2px solid var(--very-light-gray);
   cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .sedans button {
